@@ -110,7 +110,11 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-
+    
+    questionary.confirm("Do you want to save the qualifying loan data?").ask()
+    csvpath = questionary.text("Enter a file path to save qualifying loans (.csv):").ask()
+    
+    
 
 def run():
     """The main function for running the script."""
@@ -132,3 +136,12 @@ def run():
 
 if __name__ == "__main__":
     fire.Fire(run)
+
+def save_csv():
+    qualifying_data = [[credit_score, debt, income, loan_amount, home_value], bank_data_filtered]
+    with open(csvpath, 'w', newline = '') as csvfile:
+        csvwriter = csv.wrter(csvfile)
+        for row in qualifying_data:
+            csvwriter.writerow(row)
+
+    
