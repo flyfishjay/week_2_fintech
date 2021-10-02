@@ -6,7 +6,7 @@ the loans that qualify to be aproved by a pre-determined bank list.
 
 Technology used: 
 This project was created using the following tech in Windows:
-python 3.7
+python 3.8.8
 questionary
 pathlib 
 fire
