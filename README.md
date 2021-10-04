@@ -7,15 +7,14 @@ the loans that qualify to be aproved by a pre-determined bank list.
 Technology used: 
 This project was created using the following tech in Windows:
 python 3.8.8
-questionary
-pathlib 
-fire
+questionary 1.10.0
+pathlib2 2.3.5 
+fire 0.4.0
 csv 
 
 
 Installation:
 
- 
 
 Usage: 
 
