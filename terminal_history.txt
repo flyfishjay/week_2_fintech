@@ -1,0 +1,52 @@
+  197  git status
+  198  git clone https://github.com/flyfishjay/week_2_fintech.git
+  199  cd week_2_fintech
+  200  git status
+  201  git add . 
+  202  git commit - m "intital commit for weekly challenge 2"
+  203  git commit -m "intial commit for Weekly Challenge 2" 
+  204  git status
+  205  git push
+  206  jupyter lab
+  207  git push 
+  208  cd c:/users/jmuen/Dropbox/Jay/Programming/FinTech/challenge_weeklies
+  209  cd week_2
+  210  cd Starter_code/loan_qualifier_app/week_2_fintech
+  211  git add app.py 
+  212  git commit -m "updating app.py with dave_csv and saving_qualifying_loan functions"
+  213  git push 
+  214  git add README.md
+  215  git commit -m "updated Readme file with details of project"
+  216  git push 
+  217  python app.py 
+  218  pip install ipynb-py-convert
+  219  ipynb-py-convert app.py app.ipynb
+  220  git add app.ipynb
+  221  git commit -m "committing ipynb version of project"
+  222  git push 
+  223  cd qualifier/utils
+  224  ipynb-py-convert fileio.py fileio.ipynb
+  225  git add fileio.ipynb 
+  226  git commit -m "adding IPYNB to Github"
+  227  git push 
+  228  python --version
+  229  questionary --version
+  230  cd ..
+  231  cd ..
+  232  git add README.md 
+  233  git commit -m 'updated readme file with python version"
+git push 
+git commit -m 'python version added'
+  234  git add README.md
+  235  git commit -m "updated python version documentation"
+  236  git commit 
+  237  git add .
+  238  git commit -m "update all files in git"
+  239  git push 
+  240  questionary --version
+  241  ls
+  242  pip list
+  243  git add .
+  244  git commit -m "updated fileio and README file" 
+  245  git push
+  246  history 50 >terminal_history.txt
